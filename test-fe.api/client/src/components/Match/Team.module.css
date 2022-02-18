@@ -1,0 +1,35 @@
+label {
+	margin-right: 5px;
+	font-weight: bold;
+}
+.container {
+	width: 40%;
+	padding: 15px 15px;
+}
+
+.flex-table {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.flex-table .flex-row {
+	flex: 1;
+	border-top: solid 1px #1565C0;
+	border-left: solid 1px #1565C0;
+	justify-content: center;
+	align-items: center;
+	background: #1976D2;
+	color: white;
+	text-transform: uppercase;
+	font-size: 14px;
+	text-align: center;
+	padding: 5px;
+}
+
+.flex-table .flex-row:last-child {
+	border-right: solid 1px #1565c0;
+}
+
+.table {
+	border-bottom: solid 1px #d9d9d9;
+}

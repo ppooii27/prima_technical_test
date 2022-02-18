@@ -1,0 +1,33 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+.timeline {
+	width: 100%;
+	max-width: 1140px;
+	margin: 0 auto;
+	padding: 30px 0;
+}
+
+.timeline::after {
+	content: '';
+	position: absolute;
+	width: 5px;
+	background: #ccc;
+	top: 0;
+	bottom: 0;
+	left: 50%;
+	margin-left: -1px;
+}
+
+@media (max-width: 767.98px) {
+	.timeline {
+		padding: 0;
+	}
+
+	.timeline::after {
+	  left: 20px;
+	}
+}

@@ -1,0 +1,25 @@
+div {
+	box-sizing: border-box;
+}
+
+
+.flex-table {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.flex-table .flex-row {
+	flex: 1;
+	border-top: solid 1px #d9d9d9;
+	border-left: solid 1px #d9d9d9;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 5px;
+}
+
+.flex-table .flex-row:last-child {
+	border-right: solid 1px #d9d9d9;
+}
+
+

@@ -1,0 +1,40 @@
+.name {
+	font-size: 24px;
+	font-weight: bold;
+	padding:0 15px;
+}
+
+.squadNumber {
+	font-size: 24px;
+	font-weight: bold;
+	color: red;
+	background-color: #1565C0;
+	color: white;
+	width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+.flex-table {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.flex-table.profile {
+	width: 30%;
+	border: 1px solid #ccc;
+}
+
+.flex-table .flex-row {
+	flex: 0 0 50%;
+	justify-content: start;
+	align-items: start;
+	background: #ced3d6;
+	color: black;
+	font-size: 14px;
+	padding: 15px;
+}
+
+.flex-row label {
+	font-weight: bold;
+}

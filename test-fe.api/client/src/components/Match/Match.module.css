@@ -1,0 +1,18 @@
+label {
+	font-weight: bold;
+}
+
+.container {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: space-around;
+	align-content: space-between;
+}
+
+.container .date {
+	flex: 0 0 100%;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+}
